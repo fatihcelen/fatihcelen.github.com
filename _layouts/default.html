@@ -2,10 +2,17 @@
 
 <body id="page-top">
   {% include header.html %}
-  {% include index.html %}
-  {{ content }}
 
-  {% include footer.html %} 
+  {% if page.url == "/index.html" %}
+    {% include index.html %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+  
+  {{ page.url }}
+
+
+  {% include footer.html %}
 </body>
 </html>
  
