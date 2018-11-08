@@ -3,24 +3,12 @@
 <body id="page-top">
   {% include header.html %}
 
-  {% if page.url != '' %}
+  {% if page.name != 'index.md' %}
   <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-      -------------------
       {{ content }}
-      content
-      -------------------
   </section>
-  {% endif %}}
-  -------------------
-  {{ page.url }} page.url
-  -------------------
-  {{ page.id }} page.id
-  -------------------
-  {{ site | debug }}
-  -------------------
-  {{ site.posts | debug }}
-  -------------------
-  {{ page | debug }}
+  {% endif %}
+  
 
   {% include index.html %}
 
