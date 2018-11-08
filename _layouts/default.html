@@ -3,12 +3,12 @@
 <body id="page-top">
   {% include header.html %}
 
-  {% if page.url == "/index.html" %}
-    {% include index.html %}
-  {% else %}
-    {{ content }}
+  {{ content }}
+  {% include index.html %}
+
+
   {% endif %}
-  
+
   {{ page.url }}
 
 
