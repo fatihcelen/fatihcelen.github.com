@@ -2,7 +2,7 @@
 
 ## Blog Posts
 
-- [yazi yazmayi becerebilmek](https://fatihcelen.com.tr/yazi-yazmayi-becerebilmek).
+
 
 ## Portfolio
 
