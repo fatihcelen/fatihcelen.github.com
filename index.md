@@ -1,4 +1,4 @@
-<div class="right col">
+<div class="right col"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 					<h1>Welcome</h1> 
 					<p>
 						<a href="https://www.linkedin.com/in/fatihcelen" title="I experience" class="panel-link"><i><span class="fab fa-linkedin fa-3x"></span></i></a>  
